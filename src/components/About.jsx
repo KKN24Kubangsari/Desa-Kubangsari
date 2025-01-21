@@ -1,4 +1,4 @@
-import fotoKepalaDesa from '../assets/images/dummy-kepala-desa.jpg';
+import fotoKepalaDesa from '/public/images/dummy-kepala-desa.jpg';
 
 const About = () => {
   return (

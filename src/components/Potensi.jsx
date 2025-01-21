@@ -1,4 +1,8 @@
-import potensiLogo from '../assets/images/file-tree.png';
+import potensiLogo from '/public/images/file-tree.png';
+import fotoPanetean from '/public/images/panetean.jpg';
+import fotoLeuwileungsir from '/public/images/leuwileungsir.jpg';
+import fotoSale from '/public/images/sale.jpg';
+import fotoKreatif from '/public/images/kreatif.jpg';
 
 const Potensi = () => {
   const listPotensi = [
@@ -6,25 +10,25 @@ const Potensi = () => {
       namaPotensi: 'Curug Panetean',
       description:
         'Curug Panetean, terletak di Desa Kubangsari, Kecamatan Cikalong, Tasikmalaya, adalah air terjun yang mempesona dengan pemandangan alam yang asri dan udara sejuk. Cocok untuk wisata alam dan fotografi.',
-      image: './src/assets/images/panetean.jpg',
+      image: fotoPanetean,
     },
     {
       namaPotensi: 'Curug Leuwi Leungsir',
       description:
         'Curug Leuwi Leungsir, di Desa Kubangsari, Kecamatan Cikalong, Tasikmalaya, menawarkan air terjun jernih dengan batuan alami di sekitarnya. Tempat ini ideal untuk bersantai dan menikmati keindahan alam yang tenang.',
-      image: './src/assets/images/leuwileungsir.jpg',
+      image: fotoLeuwileungsir,
     },
     {
       namaPotensi: 'UMKM Sale',
       description:
         'UMKM sale di Kubangsari memproduksi camilan khas berbahan dasar pisang yang diolah menjadi sale. Produk ini memiliki pasar yang luas karena rasa gurih dan teksturnya yang renyah, menjadikannya salah satu oleh-oleh khas yang populer di daerah tersebut.',
-      image: './src/assets/images/sale.jpg',
+      image: fotoSale,
     },
     {
       namaPotensi: 'UMKM Kerajinan',
       description:
         'UMKM kerajinan dari kelapa di Kubangsari menghasilkan berbagai produk kreatif seperti kopiah, anyaman, dan aksesori rumah tangga dari sabut kelapa dan tempurung kelapa. Kerajinan ini bernilai jual tinggi dan menjadi produk khas yang menggambarkan kearifan lokal serta potensi pemanfaatan bahan alami secara berkelanjutan.',
-      image: './src/assets/images/kreatif.jpg',
+      image: fotoKreatif,
     },
     // {
     //   namaPotensi: 'Pesawahan',

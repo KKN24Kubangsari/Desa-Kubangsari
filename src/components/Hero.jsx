@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <>
       <section
-        className='bg-blend-overlay bg-center bg-no-repeat bg-cover bg-[url("./src/assets/images/desaa.jpg")] min-h-[850px]'
+        className='bg-blend-overlay bg-center bg-no-repeat bg-cover bg-[url("/public/images/desaa.jpg")] min-h-[850px]'
         id='hero'>
         <div className='container px-6 md:px-12 lg:px-[7rem] min-h-[900px] flex items-center justify-center flex-col gap-6'>
           <div className='flex items-center justify-center flex-col gap-4 font-inter text-whiteText text-center'>

@@ -1,31 +1,38 @@
-import galeriLogo from '../assets/images/image.png';
+import galeriLogo from '/public/images/image.png';
+import foto4 from '/public/images/image-4.jpg';
+import foto5 from '/public/images/image-5.jpg';
+import foto6 from '/public/images/image-6.jpg';
+import foto7 from '/public/images/image-7.jpg';
+import foto8 from '/public/images/image-8.jpg';
+import foto9 from '/public/images/image-9.jpg';
+import foto10 from '/public/images/image-10.jpg';
 
 const Galeri = () => {
   const images = [
     {
       styleGrid: 'row-span-1 sm:col-span-2 md:col-span-2',
-      link: './src/assets/images/image-4.jpg',
+      link: foto4,
     },
-    { styleGrid: 'row-span-1', link: './src/assets/images/image-5.jpg' },
+    { styleGrid: 'row-span-1', link: foto5 },
     {
       styleGrid: 'row-span-1 col-span-2 sm:col-span-3 md:col-span-1',
-      link: './src/assets/images/image-6.jpg',
+      link: foto6,
     },
     {
       styleGrid: 'row-span-1 sm:col-span-1 md:col-span-1 col-span-1',
-      link: './src/assets/images/image-10.jpg',
+      link: foto10,
     },
     {
       styleGrid: 'row-span-1 col-span-1 sm:col-span-2 md:col-span-1',
-      link: './src/assets/images/image-9.jpg',
+      link: foto9,
     },
     {
       styleGrid: 'row-span-1 sm:col-span-2 col-span-2 md:col-span-2',
-      link: './src/assets/images/image-8.jpg',
+      link: foto8,
     },
     {
       styleGrid: 'row-span-1 col-span-2 sm:col-span-1 md:col-span-4 lg:col-span-2',
-      link: './src/assets/images/image-7.jpg',
+      link: foto7,
     },
   ];
 

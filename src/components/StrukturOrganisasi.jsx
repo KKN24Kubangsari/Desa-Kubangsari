@@ -1,5 +1,5 @@
-import strukturOrganisasiLogo from '../assets/images/sitemap.png';
-import fotoStrukturOrganisasi from '../assets/images/struktur-organisasi-img.png';
+import strukturOrganisasiLogo from '/public/images/sitemap.png';
+import fotoStrukturOrganisasi from '/public/images/struktur-organisasi-img.png';
 
 const StrukturOrganisasi = () => {
   return (

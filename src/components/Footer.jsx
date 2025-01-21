@@ -1,3 +1,6 @@
+import fotoEmail from '/images/email.png';
+import fotoPhone from '/images/phone-in-talk.png';
+
 const Footer = () => {
    return (
       <>
@@ -11,13 +14,13 @@ const Footer = () => {
                <div className="flex gap-3">
                   <a href="mailto:desakubangsari82@gmail.com">
                      <img
-                        src="./src/assets/images/email.png"
+                        src={fotoEmail}
                         alt="image not found"
                      />
                   </a>
                   <a href="https://wa.me/+6285318748666">
                      <img
-                        src="./src/assets/images/phone-in-talk.png"
+                        src={fotoPhone}
                         alt="image not found"
                      />
                   </a>
