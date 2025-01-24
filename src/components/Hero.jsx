@@ -13,7 +13,7 @@ const Hero = () => {
           </div>
           <div>
             <a
-              className='bg-primary hover:bg-primary/90 text-whiteText font-bold font-inter py-3 px-6 rounded-[4px]'
+              className='bg-secondary hover:bg-secondary/90 text-blackText font-bold font-inter py-3 px-6 rounded-[4px]'
               href='#tentang'>
               Lihat Profil Desa
             </a>

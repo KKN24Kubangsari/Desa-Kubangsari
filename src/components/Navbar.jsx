@@ -15,6 +15,10 @@ const navMenus = [
       link: "#struktur-organisasi",
    },
    {
+      name: "APBD",
+      link: "#apbd",
+   },
+   {
       name: "Galeri",
       link: "#galeri",
    },
